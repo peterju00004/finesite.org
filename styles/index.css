@@ -1,5 +1,106 @@
 * {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.handwriting {
+  font-family: handwriting;
+  font-size: 5rem;
+}
+
+header {
+  display: block;
+}
+
+.stacked {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  align-items: center;
+  margin-left: 0;
+}
+
+.no-decoration {
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  margin-right: 0;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+ul > li {
+  padding-left: 2rem;
+}
+
+
+@font-face {
+  font-family: handwriting;
+  font-stretch: expanded;
+  src: url("../assets/Roy Handwriting Regular.ttf");
+}
+
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
 }
