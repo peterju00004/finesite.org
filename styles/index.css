@@ -131,3 +131,13 @@ ul > li {
   font-weight: 900;
   font-style: italic;
 }
+
+@media (max-width: 768px) {
+  * {
+    font-size: smaller;
+  }
+
+  .content {
+    width: 400px;
+  }
+}
