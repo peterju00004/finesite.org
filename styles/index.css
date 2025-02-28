@@ -30,7 +30,7 @@ h2 {
 }
 
 .content {
-  width: 50rem;
+  width: 60rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 1.2rem;
@@ -54,6 +54,11 @@ h2 {
   font-size: 5rem;
 }
 
+.handwriting-small {
+  font-family: handwriting;
+  font-size: 1.8rem;
+}
+
 .stacked {
   display: flex;
   flex-direction: column;
@@ -71,6 +76,7 @@ h2 {
   display: flex;
   flex-direction: column;
   margin: 0;
+  width: 20%;
 }
 
 .no-decoration {
@@ -83,6 +89,7 @@ h2 {
   margin-left: 1rem;
   margin-right: 1rem;
   padding: 1rem;
+  width: 80%;
 }
 
 nav {
@@ -137,7 +144,7 @@ li:hover {
 @font-face {
   font-family: handwriting;
   font-stretch: expanded;
-  src: url("../assets/Roy Handwriting Regular.ttf");
+  src: url("../assets/handwriting.ttf");
 }
 
 .merriweather-light {
