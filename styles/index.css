@@ -123,6 +123,16 @@ li:hover {
   display: inline-block;
 }
 
+.in-between-navigation {
+  margin-top: 2.5rem;
+  align-items: center;
+}
+
+.table-head {
+  text-align: right;
+  padding: 0 1rem;
+}
+
 .month {
   display: flex;
   flex-direction: column;
@@ -200,7 +210,25 @@ li:hover {
     font-size: smaller;
   }
 
+  .smaller-text {
+    font-size: x-small;
+  }
+
+  h2 {
+    font-size: medium;
+  }
+
   .content {
     width: 30rem;
   }
+
+  .handwriting {
+    font-family: handwriting;
+    font-size: 3rem;
+  }
+  
+  .handwriting-small {
+    font-family: handwriting;
+    font-size: 1rem;
+  }  
 }
