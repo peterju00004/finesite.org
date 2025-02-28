@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(39, 72, 30);
   min-height: 100vh;
@@ -12,11 +17,23 @@ body {
   color: rgb(46,44, 32);
 }
 
+h2 {
+  font-size: larger;
+}
+
+.smaller-text {
+  font-size: small;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .content {
-  width: 750px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 20px;
+  width: 50rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1.2rem;
   background-color: rgb(241,241,239);
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -59,6 +76,13 @@ body {
 .no-decoration {
   text-decoration: none;
   list-style: none;
+  color: rgb(46,44, 32);
+}
+
+.anything-else {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
 }
 
 nav {
@@ -77,6 +101,38 @@ ul > li {
   padding-top: 1rem;
 }
 
+li:hover {
+  text-decoration: underline;
+}
+
+.month-year {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.in-between-title {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.month {
+  display: flex;
+  flex-direction: column;
+}
+
+.month > * {
+  margin-left: 0;
+}
+
+.date {
+  margin-left: 3rem;
+  color: rgba(46,44, 32, 0.5);
+}
+
+.in-between-title:hover {
+  background-color: rgba(164, 171, 134, 0.5);
+}
 
 @font-face {
   font-family: handwriting;
@@ -138,6 +194,6 @@ ul > li {
   }
 
   .content {
-    width: 400px;
+    width: 30rem;
   }
 }
