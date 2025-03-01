@@ -151,6 +151,10 @@ li:hover {
   background-color: rgba(164, 171, 134, 0.5);
 }
 
+td {
+  vertical-align: top;
+}
+
 @font-face {
   font-family: handwriting;
   font-stretch: expanded;
