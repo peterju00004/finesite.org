@@ -20,6 +20,10 @@ body {
 h2 {
   font-size: larger;
 }
+h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
 
 .smaller-text {
   font-size: small;
@@ -112,6 +116,12 @@ li:hover {
   text-decoration: underline;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .month-year {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -153,6 +163,25 @@ li:hover {
 
 td {
   vertical-align: top;
+}
+
+img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project-subsection {
+  margin-bottom: 5rem;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
 }
 
 @font-face {
