@@ -157,10 +157,6 @@ img {
   color: rgba(46,44, 32, 0.5);
 }
 
-.in-between-title:hover {
-  background-color: rgba(164, 171, 134, 0.5);
-}
-
 td {
   vertical-align: top;
 }
@@ -192,6 +188,32 @@ img {
 .shifting-text-wrap {
   overflow: hidden;
   width: 100%;
+}
+
+.title-and-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.article-wrap {
+  display: inline-block;
+  width: 100%;
+}
+
+.article-wrap:hover {
+  background-color: rgba(164, 171, 134, 0.5);
+}
+
+.title-and-date span {
+  flex: 1;
+  margin-left: 0;
+}
+
+.title-and-date span.date {
+  text-align: right;
+  max-width: 10rem;
 }
 
 @font-face {
