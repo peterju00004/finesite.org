@@ -303,5 +303,9 @@ img {
   .handwriting-small {
     font-family: handwriting;
     font-size: 1rem;
-  }  
+  }
+
+  .title-and-date {
+    flex-direction: column;
+  }
 }
