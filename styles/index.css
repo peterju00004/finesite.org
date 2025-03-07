@@ -124,12 +124,10 @@ img {
 
 .month-year {
   margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .in-between-title {
   margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
   display: inline-block;
 }
 
@@ -146,6 +144,7 @@ img {
 .month {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
 }
 
 .month > * {
