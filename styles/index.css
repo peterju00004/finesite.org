@@ -184,6 +184,16 @@ img {
   text-decoration: underline;
 }
 
+.shifting-text {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.shifting-text-wrap {
+  overflow: hidden;
+  width: 100%;
+}
+
 @font-face {
   font-family: handwriting;
   font-stretch: expanded;
@@ -254,11 +264,7 @@ img {
   .categories > * {
     margin-left: 0;
   }
-
-  .shifting-text {
-    overflow: hidden;
-  }
-
+  
   .smaller-text {
     font-size: x-small;
   }
