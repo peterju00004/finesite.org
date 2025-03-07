@@ -243,16 +243,28 @@ img {
     font-size: smaller;
   }
 
+  .content {
+    width: 100%;
+  }
+
+  .categories {
+    flex-direction: column;
+  }
+
+  .categories > * {
+    margin-left: 0;
+  }
+
+  .shifting-text {
+    overflow: hidden;
+  }
+
   .smaller-text {
     font-size: x-small;
   }
 
   h2 {
     font-size: medium;
-  }
-
-  .content {
-    width: 30rem;
   }
 
   .handwriting {
