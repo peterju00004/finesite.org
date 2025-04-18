@@ -9,3 +9,4 @@ TODO:
 - private messages?: nova, dreamclipse, david?, perch?
 - more (placeholder/expired) channels?
 - keep on making: float_msg, welcome?, party, ...
+- events? do we need this
