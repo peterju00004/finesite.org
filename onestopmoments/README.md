@@ -3,6 +3,7 @@
 TODO:
 - finish todo/nova "nova's todo list"
 - add more members (pixelated avatar, names, color)
+  - missing: jayjayjeiysy (navy)
 - relationships channel
 - moments channel
 - "the hidden channel"
