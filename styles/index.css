@@ -220,6 +220,16 @@ img {
   max-width: 10rem;
 }
 
+.paragraph-list > li {
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 2rem;
+}
+
+.paragraph-list > li:hover {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: handwriting;
   font-stretch: expanded;
