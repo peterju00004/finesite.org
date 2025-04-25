@@ -37,6 +37,9 @@
 [data-color="navy"] {
     color: rgb(40, 95, 245);
 }
+[data-color="olive"] {
+    color: rgb(19, 136, 89);
+}
 
 html, body {
     margin: 0;
@@ -273,8 +276,10 @@ h1 {
 }
 
 .image {
-    max-width: 100%;
+    width: 100%;
+    max-width: 600px;
     height: auto;
+    display: block;
 }
 
 .time {
