@@ -20,9 +20,23 @@ body {
 h2 {
   font-size: larger;
 }
+
 h3 {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+}
+
+h5 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+  font-size: medium;
+}
+
+figcaption {
+  font-size: smaller;
+  font-style: italic;
+  color: rgba(46,44, 32, 0.8);
 }
 
 .smaller-text {
